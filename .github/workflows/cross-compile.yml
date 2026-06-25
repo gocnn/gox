@@ -38,7 +38,7 @@ jobs:
           - { os: netbsd, arch: arm }
 
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
 
       - name: Setup gox
         uses: qntx/setup-gox@v1
